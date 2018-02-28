@@ -1,0 +1,50 @@
+body
+{   
+background-color:#ffffff;
+font-size:15px;
+font-family:Courier;
+font-weigth:bold;
+font-style:italic;
+line-heigth:20px;
+letter-spacing:5px
+text-decoration:underline;
+text-transform:capitalize;
+text-align:left;
+text-indent:30px
+
+border-width:2px;
+border-color:black;
+border-style:;
+
+}
+				.button {
+border-top: 1px solid ;
+background: black;
+background: -webkit-gradient(linear, left top, left bottom, from(#0e7bc4), to(#1a83c9));
+background: -webkit-linear-gradient(top, #0e7bc4, #1a83c9);
+background: -moz-linear-gradient(top, #0e7bc4, #1a83c9);
+background: -ms-linear-gradient(top, #0e7bc4, #1a83c9);
+background: -o-linear-gradient(top, #0e7bc4, #1a83c9);
+padding: 5px 10px;
+-webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+box-shadow: rgba(0,0,0,1) 0 1px 0;
+text-shadow: rgba(0,0,0,.4) 0 1px 0;
+color: #000000;
+font-size: 14px;
+font-family: Georgia, serif;
+text-decoration: none;
+vertical-align: middle;
+}
+.button:hover {
+border-top-color: black;
+background: white;
+color: black;
+}
+.button:active {
+border-top-color: black;
+background: black;
+}
